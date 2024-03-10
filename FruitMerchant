@@ -1,0 +1,18 @@
+package  programmers;
+
+//https://school.programmers.co.kr/learn/courses/30/lessons/135808
+public class FruitMerchant {
+    public static void main(String[] args) {
+       int k = 4;
+       int m = 3;
+       int[] score = [4,1,2,2,4,4,4,4,1,2,4,2];
+
+       int numOfBox = score.length / m;
+      
+       /*
+       각 상자의 제일 낮은 사과 가격을 다 합한 후 numOfBox와 곱한다.
+       각 상자의 p는 score을 내림차순으로 정렬 후, score[i * m - 1]을 구하면 나온다.
+       */
+
+    }
+}
