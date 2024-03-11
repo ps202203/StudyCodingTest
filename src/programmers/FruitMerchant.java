@@ -10,7 +10,7 @@ public class FruitMerchant {
         int m = 3;
         int[] score = {4,1,2,2,4,4,4,4,1,2,4,2};
 
-        int answer = 0;
+        int answer;
         int p = 0;
         int numOfBoxes = score.length / m;
 
