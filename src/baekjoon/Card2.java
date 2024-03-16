@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
+// https://www.acmicpc.net/problem/3986
 public class Card2 {
     static int N;
     static Queue<Integer> card = new LinkedList<>();
@@ -15,12 +16,12 @@ public class Card2 {
         N = sc.nextInt();
 
         //N만큼 Queue에 쌓기
-        for(int i = 0; i < N; i++){
+        for(int i = 1; i <= N; i++){
             card.offer(i);
         }
 
         while(true){
-            if(card.size() != 1) break;
+            if(card.size() == 1) break;
             card.poll();
             card.offer(card.poll());
         }
@@ -28,9 +29,3 @@ public class Card2 {
         System.out.println(card.peek());
     }
 }
-
-
-/*
-
-ArrayDeQue, Deque가
- */
