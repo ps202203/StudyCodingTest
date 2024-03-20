@@ -31,6 +31,12 @@ public class SnackDream {
                 }
         }
 
+        while(!arr.isEmpty()){
+            if(arr.peek() == target)
+                arr.pop();
+            else break;
+        }
+
         if(arr.empty()) System.out.println("Nice");
         else System.out.println("Sad");
     }
