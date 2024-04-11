@@ -25,7 +25,10 @@ public class FrequencySort2 {
 
         int count = 0;
         int index;
-
+        int[] arr = new int[N];
+        int[] arr2 = new int[N];
+        int[] arr_frequency = new int[N];
+        int[] arr_rank = new int[N];
         st = new StringTokenizer(br.readLine(), " ");
 
         for(int i = 0; i < N; i++){
