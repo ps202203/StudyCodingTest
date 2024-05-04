@@ -2,7 +2,7 @@ package baekjoon;
 
 import java.io.*;
 import java.util.StringTokenizer;
-
+//https://www.acmicpc.net/problem/1546
 public class BOJ1546_Mean {
         static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -28,7 +28,6 @@ public class BOJ1546_Mean {
         bw.flush();
         bw.close();
         br.close();
-
 
     }
 }
