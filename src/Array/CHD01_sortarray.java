@@ -1,0 +1,24 @@
+// 코딩테스트합격자되기 자바편 문제 01
+package Array;
+
+import java.util.Arrays;
+
+public class CHD01_sortarray {
+
+    public static void main(String[] args) {
+        int[] arr = {4, 2, 1, 3, 5};
+        int[] sorted = solution(arr);
+        System.out.println(Arrays.toString(arr));   // [4, 2, 1, 3, 5]
+        System.out.println(Arrays.toString(sorted));// [1, 2, 3, 4, 5]
+    }
+    private static int[] solution(int[] arr){
+        int[] clone = arr.clone();  // clone = arr(); -> arr 주소를 가리키므로 arr도 같이 정렬된다.
+        Arrays.sort(clone);
+        return clone;
+    }
+}
+
+/*
+* java.util.Arrays 클래스의 sort() 메서드를 통해 정렬 가능
+* https://vufd342.notion.site/CHD01_sortarray-9c8f866966ab4cfc85c90db6bfc5ed34?pvs=4
+*/
