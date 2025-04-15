@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class GY_SelectionSort {
     void selectionSort(int[] arr) {
+        // selectionSort
         int indexMin, temp;
         for (int i = 0; i < arr.length-1; i++) {        // 1.
             indexMin = i;
@@ -22,5 +23,10 @@ public class GY_SelectionSort {
 
     public static void main(String[] args) {
         GY_SelectionSort sort = new GY_SelectionSort();
+        // 정렬할 배열 정의
+        int[] arr = {5, 1, 4, 2, 8};
+
+        // 정렬 수행
+        sort.selectionSort(arr);
     }
 }
