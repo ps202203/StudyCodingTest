@@ -1,4 +1,4 @@
-// 코딩테스트합격자되기 자바편 문제 01
+// 코딩테스트합격자되기 자바편 문제 02
 package Array;
 
 import java.util.Arrays;
@@ -19,3 +19,8 @@ public class CHD02_controlarray {
         }
 
 }
+
+/*
+ *
+ *
+ */
