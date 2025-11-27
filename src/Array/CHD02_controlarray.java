@@ -22,5 +22,4 @@ public class CHD02_controlarray {
 
 /*
  *
- *
  */

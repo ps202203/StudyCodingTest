@@ -20,7 +20,6 @@ public class CHD01_sortarray {
 
 /*
 * java.util.Arrays 클래스의 sort() 메서드를 통해 정렬 가능
-* https://vufd342.notion.site/CHD01_sortarray-9c8f866966ab4cfc85c90db6bfc5ed34?pvs=4
 *
 * 원본 배열의 상태를 유지하면서 원본 배열로부터 새로운 배열을 복사해서 사용해야 되는 상황에서는 clone() 메서드 사용
 *
