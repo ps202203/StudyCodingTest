@@ -22,8 +22,6 @@ public class hw1 {
         }
 
         System.out.println(Arrays.toString(result));
-
-
     }
 }
 

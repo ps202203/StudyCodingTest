@@ -13,5 +13,12 @@ public class PRG120821_Array {
         return IntStream.range(0, num_list.length)
                 .map(i -> num_list[num_list.length - 1 - i])
                 .toArray();
+        /*
+        * import java.util.stream.LongStream;
+        *
+        * LongStream.range(1, num_list.length + 1)
+                .mapToInt(i -> num_list[(int) (num_list.length - i)])
+                .toArray();
+        * */
     }
 }
